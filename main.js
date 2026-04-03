@@ -73,7 +73,7 @@
     document.head.appendChild(style);
 
     var revealTargets = document.querySelectorAll(
-      '.feature-card, .step, .stat, .section__header, .download-banner__copy, .community__copy'
+      '.feature-card, .step, .stat, .section__header, .community__copy'
     );
     revealTargets.forEach(function (el) { el.classList.add('reveal'); });
 
