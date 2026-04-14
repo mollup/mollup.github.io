@@ -38,7 +38,7 @@
       }
 
       // Log submission event (swap for real API call in production)
-      console.log('[MatchPoint] Signup submitted', {
+      console.log('[MatchPoint] Waitlist signup', {
         email: email,
         variant: window.MP_AB_VARIANT || 'unknown',
       });
@@ -46,7 +46,7 @@
       // Optimistic confirmation
       var submitBtn = form.querySelector('button[type="submit"]');
       if (submitBtn) {
-        submitBtn.textContent = '✓ You\'re on the list!';
+        submitBtn.textContent = '✓ You\'re on the waitlist!';
         submitBtn.disabled = true;
         submitBtn.style.opacity = '0.7';
       }
