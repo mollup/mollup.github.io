@@ -715,6 +715,189 @@ body {
 
 .final-cta__fine { font-size: 0.8rem; color: var(--clr-muted); }
 
+.app-download {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--clr-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-download__label {
+  font-size: 0.9rem;
+  color: var(--clr-muted);
+  font-weight: 600;
+}
+
+/* ---------- Pittsburgh Hero ---------- */
+.pittsburgh-hero {
+  background: var(--clr-surface);
+  padding-block: clamp(60px, 10vw, 100px);
+}
+
+.pittsburgh-hero__content {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.pittsburgh-hero__content h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-block: 14px 20px;
+}
+
+.pittsburgh-hero__content p {
+  font-size: 1.05rem;
+  color: var(--clr-muted);
+  line-height: 1.75;
+  margin-bottom: 30px;
+}
+
+.pittsburgh-landmarks {
+  margin-top: 32px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 2px solid var(--clr-border);
+}
+
+.pittsburgh-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+/* ---------- Feature Card Images ---------- */
+.feature-card__img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  margin-bottom: 8px;
+  border: 1px solid var(--clr-border);
+}
+
+/* ---------- Video Demo Section ---------- */
+.demo-video {
+  background: var(--clr-bg);
+}
+
+.video-container {
+  max-width: 900px;
+  margin-inline: auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 2px solid var(--clr-border);
+  box-shadow: var(--shadow-card);
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #000;
+}
+
+.video-description {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 0.95rem;
+  color: var(--clr-muted);
+  max-width: 700px;
+  margin-inline: auto;
+  line-height: 1.7;
+}
+
+/* ---------- Team Section ---------- */
+.team {
+  background: var(--clr-surface);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.team-member {
+  background: var(--clr-surface2);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  border-color: var(--clr-border-hi);
+  box-shadow: var(--shadow-glow-soft), var(--shadow-card);
+}
+
+.team-member__photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 2px solid var(--clr-border);
+  background: var(--clr-surface);
+}
+
+.team-member__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.team-member__info h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.team-member__role {
+  font-size: 0.85rem;
+  color: var(--clr-orange);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.team-member__bio {
+  font-size: 0.92rem;
+  color: var(--clr-muted);
+  line-height: 1.7;
+}
+
+/* ---------- Community Image ---------- */
+.community-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--clr-border);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* ---------- Footer ---------- */
 .footer {
   background: var(--clr-surface);
@@ -760,10 +943,13 @@ body {
   .final-cta { clip-path: polygon(0 32px, 100% 0, 100% 100%, 0 100%); }
   .steps::before { display: none; }
   .hero__actions { flex-direction: column; align-items: center; }
+  .team-grid { grid-template-columns: 1fr; }
+  .features__grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
   .signup-form { flex-direction: column; }
   .signup-form input[type="email"],
   .signup-form .btn { width: 100%; }
+  .app-download { width: 100%; }
 }

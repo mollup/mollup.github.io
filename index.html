@@ -21,6 +21,8 @@
       <ul class="nav__links" role="list">
         <li><a href="#features">Features</a></li>
         <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#team">Team</a></li>
         <li><a href="#community">Community</a></li>
       </ul>
       <a href="#signup" class="btn btn--nav cta-btn" data-cta="nav">Join the Waitlist</a>
@@ -77,6 +79,24 @@
     </div>
   </div>
 
+  <!-- PITTSBURGH HERO SECTION -->
+  <section class="pittsburgh-hero section" id="pittsburgh">
+    <div class="container pittsburgh-hero__inner">
+      <div class="pittsburgh-hero__content">
+        <span class="section__tag">🏙️ Built in Pittsburgh</span>
+        <h2>For the Steel City's <span class="gradient-text">Fighting Game Community</span></h2>
+        <p>
+          From South Side Works to the Strip District, Pittsburgh's FGC is legendary. MatchPoint was born right here in the 412, 
+          built by local players who know what it takes to run tournaments in the city of champions. Whether you're battling 
+          it out at local game shops or organizing major events downtown, we've got your back.
+        </p>
+        <div class="pittsburgh-landmarks">
+          <img src="assets/images/pittsburgh-skyline.jpg" alt="Pittsburgh skyline with the three rivers and city lights at dusk" class="pittsburgh-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FEATURES -->
   <section class="features section" id="features">
     <div class="container">
@@ -87,37 +107,37 @@
       </div>
       <div class="features__grid">
         <div class="feature-card">
-          <div class="feature-card__icon">🎮</div>
+          <img src="assets/images/feature-brackets.png" alt="Smart bracket generation interface showing tournament tree" class="feature-card__img" />
           <h3>Smart Brackets</h3>
           <p>Auto-generated single, double-elimination, and round-robin brackets that update in real time.</p>
           <a href="#signup" class="link-cta cta-btn" data-cta="feature-brackets">Start free →</a>
         </div>
         <div class="feature-card feature-card--highlight">
-          <div class="feature-card__icon">⚡</div>
+          <img src="assets/images/feature-live-scoring.png" alt="Real-time match scoring dashboard with live updates" class="feature-card__img" />
           <h3>Live Scoring</h3>
           <p>Real-time match results pushed instantly to players, spectators, and streaming setups.</p>
           <a href="#signup" class="link-cta cta-btn" data-cta="feature-scoring">Start free →</a>
         </div>
         <div class="feature-card">
-          <div class="feature-card__icon">🌍</div>
+          <img src="assets/images/feature-leaderboards.png" alt="Global leaderboards showing player rankings and ELO ratings" class="feature-card__img" />
           <h3>Global Leaderboards</h3>
           <p>Track your rank and ELO across multiple games and climb the global competitive ladder.</p>
           <a href="#signup" class="link-cta cta-btn" data-cta="feature-leaderboard">Start free →</a>
         </div>
         <div class="feature-card">
-          <div class="feature-card__icon">📣</div>
+          <img src="assets/images/feature-notifications.png" alt="Mobile push notification alerting player their match is ready" class="feature-card__img" />
           <h3>Player Notifications</h3>
           <p>Competitors get slick alerts when their match is ready — no more wandering the venue.</p>
           <a href="#signup" class="link-cta cta-btn" data-cta="feature-notifs">Start free →</a>
         </div>
         <div class="feature-card">
-          <div class="feature-card__icon">🔒</div>
+          <img src="assets/images/feature-auth.png" alt="Secure OAuth login screen with multiple authentication options" class="feature-card__img" />
           <h3>Secure Auth</h3>
           <p>OAuth 2.0 backed accounts so players log in quickly and organizers stay in control.</p>
           <a href="#signup" class="link-cta cta-btn" data-cta="feature-auth">Start free →</a>
         </div>
         <div class="feature-card">
-          <div class="feature-card__icon">📊</div>
+          <img src="assets/images/feature-analytics.png" alt="Analytics dashboard showing tournament statistics and player performance metrics" class="feature-card__img" />
           <h3>Rich Analytics</h3>
           <p>Post-tournament stats, win rates, and performance breakdowns to help players level up.</p>
           <a href="#signup" class="link-cta cta-btn" data-cta="feature-analytics">Start free →</a>
@@ -171,6 +191,41 @@
     </div>
   </section>
 
+  <!-- VIDEO DEMO SECTION -->
+  <section class="demo-video section" id="demo">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">See It In Action</span>
+        <h2>Watch MatchPoint <span class="gradient-text">in action</span></h2>
+        <p>Check out our platform demo showing how easy it is to create and run a tournament.</p>
+      </div>
+      <div class="video-container">
+        <video 
+          controls 
+          poster="assets/images/video-poster.jpg"
+          aria-label="MatchPoint platform demonstration video"
+        >
+          <source src="assets/videos/matchpoint-demo.mp4" type="video/mp4" />
+          <track 
+            kind="captions" 
+            src="assets/videos/matchpoint-demo-captions.vtt" 
+            srclang="en" 
+            label="English" 
+            default
+          />
+          Your browser does not support the video tag.
+        </video>
+        <!-- PLACEHOLDER: assets/videos/matchpoint-demo.mp4 -->
+        <!-- PLACEHOLDER: assets/videos/matchpoint-demo-captions.vtt -->
+        <!-- PLACEHOLDER: assets/images/video-poster.jpg -->
+      </div>
+      <p class="video-description">
+        This 2-minute walkthrough shows you how to set up a tournament, manage brackets, and track results in real-time. 
+        All narrated and captioned for accessibility.
+      </p>
+    </div>
+  </section>
+
   <!-- COMMUNITY -->
   <section class="community section" id="community">
     <div class="container community__inner">
@@ -179,28 +234,30 @@
         <h2>Join the scene.</h2>
         <p>
           MatchPoint is being built for fighting game communities across Street Fighter, Tekken, Mortal Kombat, and more.
-          Join the waitlist and be part of the launch.
+          Whether you're hosting weekly casuals in Oakland or organizing major tournaments downtown, we're here to support 
+          Pittsburgh's vibrant FGC. Join the waitlist and be part of the launch.
         </p>
+        <img src="assets/images/pittsburgh-fgc-event.jpg" alt="Pittsburgh FGC community members at a local tournament event" class="community-img" />
         <a href="#signup" class="btn btn--primary cta-btn" data-cta="community-join">
           <span class="cta-label">Join the Waitlist</span>
         </a>
       </div>
       <div class="community__stats" aria-label="Platform highlights">
         <div class="stat">
-          <span class="stat__number">Early</span>
-          <span class="stat__label">Access</span>
+          <span class="stat__number">412</span>
+          <span class="stat__label">Pittsburgh Pride</span>
         </div>
         <div class="stat">
-          <span class="stat__number">Bracket</span>
-          <span class="stat__label">Tools</span>
+          <span class="stat__number">Early</span>
+          <span class="stat__label">Access</span>
         </div>
         <div class="stat">
           <span class="stat__number">FGC</span>
           <span class="stat__label">Focused</span>
         </div>
         <div class="stat">
-          <span class="stat__number">More</span>
-          <span class="stat__label">Coming Soon</span>
+          <span class="stat__number">Local</span>
+          <span class="stat__label">First</span>
         </div>
       </div>
     </div>
@@ -227,6 +284,107 @@
         </button>
       </form>
       <p class="final-cta__fine">No spam. We'll only email you when we launch.</p>
+      <div class="app-download">
+        <p class="app-download__label">Or try our working prototype:</p>
+        <a href="https://matchpoint-app.herokuapp.com" target="_blank" rel="noopener noreferrer" class="btn btn--ghost cta-btn" data-cta="app-launch">
+          Launch Web App →
+        </a>
+        <!-- PLACEHOLDER: Update URL to actual working prototype -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT THE TEAM -->
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Meet the Team</span>
+        <h2>Built by fighters, <span class="gradient-text">for fighters</span></h2>
+        <p>We're a group of passionate developers and FGC enthusiasts from Pittsburgh who know what the community needs.</p>
+      </div>
+      <div class="team-grid">
+        
+        <!-- Gui -->
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team/gui.jpeg" alt="Portrait of Gui, Co-Founder & Backend Architect" />
+          </div>
+          <div class="team-member__info">
+            <h3>Gui</h3>
+            <p class="team-member__role">Co-Founder & Backend Architect</p>
+            <p class="team-member__bio">
+              Information Systems student at CMU with real-world fintech experience from a major Brazilian banking company. 
+              Brings enterprise-scale systems knowledge to building robust tournament infrastructure. When not architecting 
+              backend systems, you'll find him competing in local Pittsburgh fighting game events.
+            </p>
+          </div>
+        </div>
+
+        <!-- Eshar -->
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team/eshar.jpeg" alt="Portrait of Eshar, Co-Founder & Lead Engineer" />
+          </div>
+          <div class="team-member__info">
+            <h3>Eshar</h3>
+            <p class="team-member__role">Co-Founder & Lead Engineer</p>
+            <p class="team-member__bio">
+              CMU Information Systems student with engineering experience at Amazon and Google. Brings Silicon Valley 
+              best practices to Pittsburgh's FGC scene. Specializes in building scalable, real-time systems that keep 
+              tournaments running smoothly from check-in to champion.
+            </p>
+          </div>
+        </div>
+
+        <!-- André -->
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team/andre.jpeg" alt="Portrait of André, Full-Stack Developer" />
+          </div>
+          <div class="team-member__info">
+            <h3>André</h3>
+            <p class="team-member__role">Full-Stack Developer</p>
+            <p class="team-member__bio">
+              CMU Information Systems student and former robotics researcher who traded lab work for competitive gaming. 
+              Reigning Smash champion at his fraternity, he understands what makes tournaments tick. Pittsburgh native 
+              bringing that Steel City competitive fire to every line of code.
+            </p>
+          </div>
+        </div>
+
+        <!-- Alex -->
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team/alex.jpeg" alt="Portrait of Alex, Product Lead" />
+          </div>
+          <div class="team-member__info">
+            <h3>Alex</h3>
+            <p class="team-member__role">Product Lead</p>
+            <p class="team-member__bio">
+              CMU Information Systems student, nationally-ranked tennis player, and TA for Software Construction. 
+              Knows firsthand what it takes to compete at the highest level. Brings the same precision to building 
+              MatchPoint that made him one of the top players in the country.
+            </p>
+          </div>
+        </div>
+
+        <!-- Ben -->
+        <div class="team-member">
+          <div class="team-member__photo">
+            <img src="assets/images/team/ben.jpeg" alt="Portrait of Ben, Community Lead & Game Dev" />
+          </div>
+          <div class="team-member__info">
+            <h3>Ben</h3>
+            <p class="team-member__role">Community Lead & Game Dev</p>
+            <p class="team-member__bio">
+              Active member of Pittsburgh's Fighting Game Community and experienced game developer. The heartbeat of 
+              the 412 FGC scene, Ben knows what tournament organizers need because he's been in the trenches. Brings 
+              authentic community insight and game dev expertise to every feature.
+            </p>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -238,15 +396,16 @@
           <span class="logo-icon">⚡</span>
           <span>MatchPoint</span>
         </a>
-        <p>The central hub for fighting game tournaments.</p>
+        <p>The central hub for fighting game tournaments. Built with ❤️ in Pittsburgh, PA.</p>
       </div>
       <nav class="footer__links" aria-label="Footer navigation">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Contact</a>
-        <a href="https://github.com/mollup/match-point" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#features">Features</a>
+        <a href="#team">Team</a>
+        <a href="#signup">Waitlist</a>
+        <a href="https://github.com/mollup/mollup.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <!-- PLACEHOLDER: Update GitHub URL to actual repository -->
       </nav>
-      <p class="footer__copy">&copy; 2026 MatchPoint. Built with ⚡ on GitHub Pages.</p>
+      <p class="footer__copy">&copy; 2026 MatchPoint. Proudly serving the Steel City 🏙️</p>
     </div>
   </footer>
 
