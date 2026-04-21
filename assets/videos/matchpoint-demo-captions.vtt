@@ -1,0 +1,83 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.500
+Okay, so now I'll be showcasing the features
+of being a tournament organizer
+
+00:00:05.500 --> 00:00:10.000
+and actually setting up these tournaments
+and creating a bracket,
+
+00:00:10.000 --> 00:00:14.500
+as well as the user side of things,
+where they can register for these tournaments.
+
+00:00:14.500 --> 00:00:19.000
+So firstly, we'll act as a tournament organizer.
+We're going to create our own account
+
+00:00:19.000 --> 00:00:21.500
+and select Tournament Organizer.
+
+00:00:21.500 --> 00:00:25.500
+Then, once we're into the actual dashboard,
+we can create our own tournament.
+
+00:00:25.500 --> 00:00:30.000
+For this, we're just going to create
+a weekly tournament,
+
+00:00:30.000 --> 00:00:33.000
+so we can just say "weekly tourney."
+
+00:00:33.000 --> 00:00:37.000
+For the game, we can just pick one —
+let's say Street Fighter.
+
+00:00:37.000 --> 00:00:41.500
+Okay, so this is us getting
+the tournament actually set up.
+
+00:00:41.500 --> 00:00:45.500
+Obviously, we currently have zero entries
+because we just created it.
+
+00:00:45.500 --> 00:00:49.000
+Now we're going to join this
+from the user side,
+
+00:00:49.000 --> 00:00:51.500
+so we're going to create a user.
+
+00:00:51.500 --> 00:00:54.000
+Okay, then we'll go with Player.
+
+00:00:54.000 --> 00:00:59.000
+From here we can see that the weekly tournament
+we created as the organizer account pops up.
+
+00:00:59.000 --> 00:01:03.000
+We can click that
+and go sign up for this tourney.
+
+00:01:03.000 --> 00:01:07.500
+We select our display name,
+and it lets us know the game we're playing.
+
+00:01:07.500 --> 00:01:10.500
+Then we just confirm our registration.
+
+00:01:10.500 --> 00:01:15.500
+Now if we go back to the dashboard,
+we can see there's now one entrant — which is us —
+
+00:01:15.500 --> 00:01:18.500
+and that's our active tournament.
+
+00:01:18.500 --> 00:01:23.000
+Now I'll be showcasing that this feature
+works on a different size screen.
+
+00:01:23.000 --> 00:01:29.000
+This is simulating a phone, showing our dynamic UI
+that can adapt to different browser sizes.

@@ -50,22 +50,17 @@ See [ASSET-CHECKLIST.md](ASSET-CHECKLIST.md) for full details.
 - 1 video poster
 - 4+ team photos
 
-### 3. Create Video Demo
-**Requirements:**
-- 2-minute walkthrough of your platform
-- Narrated voiceover
-- Visible captions (VTT file)
-- Magnified font sizes
+### 3. ✅ Video Demo - COMPLETE
+**Status:** Video and captions added!
+- ✅ `matchpoint-demo.mp4` (29MB)
+- ✅ `matchpoint-demo-captions.vtt` (2KB)
 
-**Place in:** `/assets/videos/`
-- `matchpoint-demo.mp4`
-- `matchpoint-demo-captions.vtt`
+**Location:** `/assets/videos/`
 
-### 4. Update Links
-- **Line ~283:** Update working prototype URL
-  - Current: `https://matchpoint-app.herokuapp.com`
-  - Change to: Your actual deployed app URL
-- **Line ~383:** Verify GitHub repo URL
+### 4. ✅ Links Updated - COMPLETE
+- ✅ **Line ~283:** Working prototype URL updated
+  - Set to: `https://match-point-8820.onrender.com`
+- ✅ **Line ~383:** GitHub repo URL verified
   - Current: `https://github.com/mollup/mollup.github.io`
 
 ### 5. Deploy

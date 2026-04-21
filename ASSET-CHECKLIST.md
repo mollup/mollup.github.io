@@ -56,35 +56,29 @@ This document lists all the placeholders and assets that need to be created and 
    - **Recommended Size:** 400x300px
    - **Alt Text:** "Analytics dashboard showing tournament statistics and player performance metrics"
 
-### Video Section
-8. **`assets/images/video-poster.jpg`**
-   - **Description:** Video thumbnail/poster image (appears before video plays)
-   - **Recommended Size:** 1280x720px (16:9 ratio)
-   - **Alt Text:** N/A (decorative)
-
 ### Community Section
-9. **`assets/images/pittsburgh-fgc-event.jpg`**
+8. **`assets/images/pittsburgh-fgc-event.jpg`**
    - **Description:** Pittsburgh FGC community members at a local tournament event
    - **Recommended Size:** 800x600px
    - **Alt Text:** "Pittsburgh FGC community members at a local tournament event"
 
 ### Team Section (4+ images - adjust based on actual team size)
-10. **`assets/images/team/member-1.jpg`**
+9. **`assets/images/team/member-1.jpg`**
     - **Description:** Portrait photo of Team Member 1
     - **Recommended Size:** 500x500px (1:1 ratio, square)
     - **Alt Text:** "Portrait of [Name], [Role]"
 
-11. **`assets/images/team/member-2.jpg`**
+10. **`assets/images/team/member-2.jpg`**
     - **Description:** Portrait photo of Team Member 2
     - **Recommended Size:** 500x500px (1:1 ratio, square)
     - **Alt Text:** "Portrait of [Name], [Role]"
 
-12. **`assets/images/team/member-3.jpg`**
+11. **`assets/images/team/member-3.jpg`**
     - **Description:** Portrait photo of Team Member 3
     - **Recommended Size:** 500x500px (1:1 ratio, square)
     - **Alt Text:** "Portrait of [Name], [Role]"
 
-13. **`assets/images/team/member-4.jpg`**
+12. **`assets/images/team/member-4.jpg`**
     - **Description:** Portrait photo of Team Member 4
     - **Recommended Size:** 500x500px (1:1 ratio, square)
     - **Alt Text:** "Portrait of [Name], [Role]"
@@ -93,32 +87,16 @@ This document lists all the placeholders and assets that need to be created and 
 
 ---
 
-## 🎥 Video Assets Needed
+## 🎥 Video Assets - ✅ COMPLETE
 
-14. **`assets/videos/matchpoint-demo.mp4`**
-    - **Description:** 2-minute platform walkthrough showing tournament creation, bracket management, and results tracking
-    - **Requirements:**
-      - ✅ Must be narrated (voice-over explaining each step)
-      - ✅ Must have visible captions embedded or via VTT file
-      - Screen recording with magnified font sizes for legibility
-      - Recommended: 1080p (1920x1080) or 720p (1280x720)
-      - Format: MP4 (H.264 codec recommended for web compatibility)
+13. **✅ `assets/videos/matchpoint-demo.mp4`** (29MB)
+    - **Status:** Added! Video shows platform walkthrough
+    - **Format:** MP4
+    - **Note:** Using first frame as poster (no separate poster image needed)
 
-15. **`assets/videos/matchpoint-demo-captions.vtt`**
-    - **Description:** WebVTT caption file for the demo video
-    - **Requirements:**
-      - Time-synced captions for all narration
-      - Follow WebVTT format specification
-      - Example format:
-        ```
-        WEBVTT
-
-        00:00:00.000 --> 00:00:03.000
-        Welcome to MatchPoint, the ultimate tournament platform.
-
-        00:00:03.000 --> 00:00:07.000
-        Let's see how easy it is to create your first tournament.
-        ```
+14. **✅ `assets/videos/matchpoint-demo-captions.vtt`** (2KB)
+    - **Status:** Added! WebVTT caption file included
+    - **Format:** VTT (WebVTT)
 
 ---
 
@@ -146,18 +124,12 @@ Each team member needs:
 
 ## 🔗 Links to Update
 
-16. **Working Prototype URL**
-    - **Location:** Final CTA section (line ~280 in index.html)
-    - **Current Placeholder:** `https://matchpoint-app.herokuapp.com`
-    - **Action Needed:** Replace with actual working prototype URL
-    - **Code location:**
-      ```html
-      <a href="https://matchpoint-app.herokuapp.com" target="_blank" rel="noopener noreferrer" class="btn btn--ghost cta-btn" data-cta="app-launch">
-        Launch Web App →
-      </a>
-      ```
+15. **✅ Working Prototype URL** - COMPLETE
+    - **Location:** Final CTA section (line ~283 in index.html)
+    - **URL:** `https://match-point-8820.onrender.com`
+    - **Status:** Updated with live app URL
 
-17. **GitHub Repository URL**
+16. **GitHub Repository URL**
     - **Location:** Footer (line ~380 in index.html)
     - **Current Placeholder:** `https://github.com/mollup/mollup.github.io`
     - **Action Needed:** Verify this is the correct repository URL
@@ -176,23 +148,23 @@ Create the following directory structure for your assets:
 /Users/andremiller/17-356/mp/lp/
 ├── assets/
 │   ├── images/
-│   │   ├── pittsburgh-skyline.jpg
-│   │   ├── pittsburgh-fgc-event.jpg
-│   │   ├── video-poster.jpg
-│   │   ├── feature-brackets.png
-│   │   ├── feature-live-scoring.png
-│   │   ├── feature-leaderboards.png
-│   │   ├── feature-notifications.png
-│   │   ├── feature-auth.png
-│   │   ├── feature-analytics.png
+│   │   ├── pittsburgh-skyline.jpg ✅
+│   │   ├── pittsburgh-fgc-event.jpg ✅
+│   │   ├── feature-brackets.png ✅
+│   │   ├── feature-live-scoring.png ✅
+│   │   ├── feature-leaderboards.png ✅
+│   │   ├── feature-notifications.png ✅
+│   │   ├── feature-auth.png ✅
+│   │   ├── feature-analytics.png ✅
 │   │   └── team/
-│   │       ├── member-1.jpg
-│   │       ├── member-2.jpg
-│   │       ├── member-3.jpg
-│   │       └── member-4.jpg
+│   │       ├── gui.jpeg ✅
+│   │       ├── eshar.jpeg ✅
+│   │       ├── andre.jpeg ✅
+│   │       ├── alex.jpeg ✅
+│   │       └── ben.jpeg ✅
 │   └── videos/
-│       ├── matchpoint-demo.mp4
-│       └── matchpoint-demo-captions.vtt
+│       ├── matchpoint-demo.mp4 ✅
+│       └── matchpoint-demo-captions.vtt ✅
 ├── index.html
 ├── style.css
 ├── main.js
@@ -205,12 +177,12 @@ Create the following directory structure for your assets:
 ## ✅ Completion Checklist
 
 ### Before Submission:
-- [ ] Create all image assets (13 images total)
-- [ ] Create demo video with narration
-- [ ] Create VTT caption file for video
-- [ ] Fill in all team member names, roles, and bios
-- [ ] Update working prototype URL
-- [ ] Verify GitHub repository URL
+- [x] Create all image assets (13 images total) ✅
+- [x] Create demo video with narration ✅
+- [x] Create VTT caption file for video ✅
+- [x] Fill in all team member names, roles, and bios ✅
+- [x] Update working prototype URL ✅
+- [x] Verify GitHub repository URL ✅
 - [ ] Test all internal links (scroll to sections)
 - [ ] Test external links (open in new tab)
 - [ ] Test video playback and captions
